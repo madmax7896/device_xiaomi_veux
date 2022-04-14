@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Vendor Service Manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
 
