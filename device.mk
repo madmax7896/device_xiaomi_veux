@@ -141,6 +141,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.keymaster@4.1.vendor
 
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail_vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
