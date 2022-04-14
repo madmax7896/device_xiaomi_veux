@@ -147,6 +147,10 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common.vendor \
     libsfplugin_ccodec_utils.vendor
 
+# Netmgr
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
