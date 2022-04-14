@@ -86,6 +86,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.emmc \
     $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.emmc \
 
+# GPS
+LOC_HIDL_VERSION := 4.0
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
