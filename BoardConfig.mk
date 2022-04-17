@@ -39,6 +39,9 @@ AB_OTA_PARTITIONS := \
     vendor \
     vendor_boot
 
+# Audio
+TARGET_PROVIDES_AUDIO_EXTNS := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := veux
 TARGET_NO_BOOTLOADER := true
