@@ -171,6 +171,14 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAVeuxFrameworksOverlay \
+    VeuxFrameworksOverlay \
+    VeuxSettingsOverlay \
+    VeuxSystemUIOverlay \
+    NoCutoutOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
