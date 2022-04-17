@@ -183,6 +183,13 @@ PRODUCT_PACKAGES += \
     VeuxSystemUIOverlay \
     NoCutoutOverlay
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
