@@ -93,6 +93,9 @@ PRODUCT_COPY_FILES += \
 # GPS
 LOC_HIDL_VERSION := 4.0
 
+# GSI keys
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # GPU
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
