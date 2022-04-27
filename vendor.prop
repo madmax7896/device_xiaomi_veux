@@ -228,6 +228,10 @@ persist.vendor.sensors.support_direct_channel=false
 persist.vendor.sensors.enable.bypass_worker=true
 persist.vendor.sensors.sync_request=true
 
+# SoC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM6375
+
 # Shutdown waittime
 sys.vendor.shutdown.waittime=500
 
