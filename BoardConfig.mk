@@ -59,8 +59,12 @@ TARGET_NO_BOOTLOADER := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/device_framework_compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/xiaomi_vendor_framework_compatibility_matrix.xml
+
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/configs/hidl/manifest.xml \
+    $(DEVICE_PATH)/configs/hidl/xiaomi_manifest.xml
+
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 
 # Init
