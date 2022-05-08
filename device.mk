@@ -93,6 +93,14 @@ PRODUCT_COPY_FILES += \
 # GPS
 LOC_HIDL_VERSION := 4.0
 
+# GPU
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
@@ -164,6 +172,22 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Platform
 TARGET_BOARD_PLATFORM := holi
+
+# QC common
+TARGET_COMMON_QTI_COMPONENTS := \
+    audio \
+    av \
+    bt \
+    display \
+    gps \
+    media \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    vibrator \
+    wfd \
+    wlan
 
 # Radio
 PRODUCT_PACKAGES += \
