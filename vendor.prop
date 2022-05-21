@@ -163,6 +163,8 @@ persist.vendor.dpm.idletimer.mode=default
 drm.service.enabled=true
 
 # Display
+debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=1
 debug.sf.frame_rate_multiple_threshold=120
 persist.sys.sf.color_mode=0
 ro.hardware.vulkan=adreno
