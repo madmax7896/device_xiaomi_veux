@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
     VeuxFrameworksOverlay \
     VeuxSettingsOverlay \
     VeuxSystemUIOverlay \
+    VeuxWifiOverlay \
     NoCutoutOverlay
 
 # ParanoidDoze
