@@ -196,6 +196,9 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common.vendor \
     libsfplugin_ccodec_utils.vendor
 
+# NFC
+TARGET_NFC_SKU := veux
+
 # Netmgr
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
@@ -246,6 +249,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     gps \
     media \
+    nq-nfc \
     overlay \
     perf \
     telephony \

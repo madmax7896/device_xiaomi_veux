@@ -82,6 +82,8 @@ void vendor_load_properties()
     // Detect device and configure properties
     string mod = GetProperty("ro.boot.board_id", "");
 
+    string region = GetProperty("ro.boot.hwc", "");
+
     if (mod == "S88007EA1") { // India
         set_device_props("Redmi", "peux", "2201116SI", "peux_in", "Redmi Note 11 Pro+ 5G");
     } else if (mod == "S88107BA1") { // India
@@ -94,6 +96,10 @@ void vendor_load_properties()
         set_device_props("POCO", "veux", "2201116PG", "veux_p_global", "POCO X4 Pro 5G");
     } else { // Global
         set_device_props("Redmi", "veux", "2201116SG", "veux_global", "Redmi Note 11 Pro 5G");
+    }
+
+    if (region != "India") {
+        property_override("ro.boot.product.hardware.sku", "veux");
     }
 
     // Set hardware revision

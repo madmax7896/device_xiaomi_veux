@@ -73,6 +73,9 @@ DEVICE_MANIFEST_FILE += \
 
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 
+ODM_MANIFEST_SKUS := veux
+ODM_MANIFEST_VEUX_FILES := $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_veux
 TARGET_RECOVERY_DEVICE_MODULES := libinit_veux
