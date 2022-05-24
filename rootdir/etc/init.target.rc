@@ -191,11 +191,19 @@ on boot && property:persist.vendor.usb.controller.default=*
 
 on boot && property:ro.boot.product.hardware.sku=veux
     start nqnfc_2_0_hal_service
+    start secureelement-hal_1_2
 
 service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
     class hal
     user nfc
     group nfc
+    disabled
+
+service secureelement-hal_1_2 /vendor/bin/hw/vendor.qti.secure_element@1.2-service
+    override
+    class hal
+    user system
+    group system
     disabled
 
 on charger
