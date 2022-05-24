@@ -975,6 +975,8 @@ vendor/etc/media_profiles_holi.xml
 vendor/etc/media_profiles_vendor.xml
 
 # NFC
+vendor/bin/hw/android.hardware.nfc@1.2-service
+vendor/etc/init/android.hardware.nfc@1.2-service.rc
 vendor/etc/init/init.sn100.nfc.rc
 vendor/etc/init/init.veux.nfc.rc
 vendor/etc/libese-nxp.conf
@@ -986,17 +988,22 @@ vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
 vendor/etc/permissions/com.nxp.nfc.xml
+vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
 vendor/lib64/hal_libnfc.so
 vendor/lib64/libpn557_fw.so
 vendor/lib64/ls_client.so
 vendor/lib64/nfc_nci_nxp.so
 vendor/lib64/vendor.nxp.eventprocessor@1.0.so
+vendor/lib64/vendor.nxp.nxpese@1.0.so
 vendor/lib64/vendor.nxp.nxpnfc@2.0.so
+vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
 vendor/libnfc-nxp_RF.conf
 
 # NFC (Secure Element)
+vendor/bin/hw/android.hardware.secure_element@1.2-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
+vendor/etc/init/android.hardware.secure_element@1.2-service.rc
 vendor/etc/init/init.veux.se.rc
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc

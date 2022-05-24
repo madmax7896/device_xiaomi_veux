@@ -98,8 +98,10 @@ void vendor_load_properties()
         set_device_props("Redmi", "veux", "2201116SG", "veux_global", "Redmi Note 11 Pro 5G");
     }
 
-    if (region != "India") {
+    if (region == "Global") {
         property_override("ro.boot.product.hardware.sku", "veux");
+    } else if (region == "China" || region == "CN") {
+        property_override("ro.boot.product.hardware.sku", "veux-cn");
     }
 
     // Set hardware revision

@@ -189,11 +189,23 @@ on property:vendor.display.lcd_density=640
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
 
-on boot && property:ro.boot.product.hardware.sku=veux
+on boot && property:ro.boot.product.hardware.sku=veux-cn
     start nqnfc_2_0_hal_service
     start secureelement-hal_1_2
 
+on boot && property:ro.boot.product.hardware.sku=veux
+    start vendor.nfc_hal_service
+    start secureelement-hal_1_2
+
 service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+    override
+    class hal
+    user nfc
+    group nfc
+    disabled
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    override
     class hal
     user nfc
     group nfc
