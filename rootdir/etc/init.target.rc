@@ -111,6 +111,10 @@ on early-boot
     start vendor.sensors
 
 on boot
+    # DT2W
+    chown system system /proc/tp_gesture
+    chmod 0644 /proc/tp_gesture
+
     # selinux nodes, hide permissive state
     chmod 0640 /sys/fs/selinux/enforce
     chmod 0440 /sys/fs/selinux/policy
