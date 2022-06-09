@@ -7,7 +7,6 @@ ro.config.vc_call_vol_steps=11
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 persist.vendor.btstack.aac_frm_ctl.enabled=true
-ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
