@@ -52,7 +52,6 @@ persist.vendor.data.mode=concurrent
 persist.vendor.ims.dropset_feature=1
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.enable_temp_dds=true
-persist.vendor.radio.redir_party_num=1
 persist.vendor.radio.report_codec=1
 ril.subscription.types=RUIM
 ro.telephony.default_network=33,33
