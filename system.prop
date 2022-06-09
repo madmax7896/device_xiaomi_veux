@@ -7,6 +7,7 @@ ro.config.vc_call_vol_steps=11
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 persist.vendor.btstack.aac_frm_ctl.enabled=true
+persist.vendor.btstack.enable.lpa=true
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
