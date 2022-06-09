@@ -15,6 +15,6 @@
 # Asus Gamepad
 
 #single click
-key 353   DPAD_CENTER VIRTUAL
+#key 353   DPAD_CENTER VIRTUAL
 #double click
-key 306   BUTTON_C VIRTUAL
+#key 306   BUTTON_C VIRTUAL
