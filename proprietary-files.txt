@@ -715,6 +715,12 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
+# Diag
+vendor/bin/diag-router
+vendor/etc/init/vendor.qti.diag.rc
+-vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
+vendor/lib64/vendor.qti.diaghal@1.0.so
+
 # Display (SDM) - from LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
 vendor/lib64/libdisp-aba.so|5c8ad123fb335a74bd573587924f93ac812594fd
 vendor/lib64/libdisplayqos.so|aa222f4c1a2d2fb60944c44f8a82621d6bc75184
