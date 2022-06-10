@@ -171,48 +171,6 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 
-# Audio Configs
-vendor/etc/audio/sku_holi/a2dp_audio_policy_configuration.xml
-vendor/etc/audio/sku_holi/audio_effects.conf
-vendor/etc/audio/sku_holi/audio_effects.xml
-vendor/etc/audio/sku_holi/audio_io_policy.conf
-vendor/etc/audio/sku_holi/audio_platform_info.xml
-vendor/etc/audio/sku_holi/audio_platform_info_intcodec.xml
-vendor/etc/audio/sku_holi/audio_platform_info_qrd.xml
-vendor/etc/audio/sku_holi/audio_policy_volumes.xml
-vendor/etc/audio/sku_holi/audio_tuning_mixer.txt
-vendor/etc/audio/sku_holi/default_volume_tables.xml
-vendor/etc/audio/sku_holi/media_codecs_vendor_audio.xml
-vendor/etc/audio/sku_holi/mixer_paths.xml
-vendor/etc/audio/sku_holi/mixer_paths_qrd.xml
-vendor/etc/audio/sku_holi/mixer_paths_qrdsku1.xml
-vendor/etc/audio/sku_holi/mixer_paths_usbc.xml
-vendor/etc/audio/sku_holi/r_submix_audio_policy_configuration.xml
-vendor/etc/audio/sku_holi/sound_trigger_mixer_paths.xml
-vendor/etc/audio/sku_holi/usb_audio_policy_configuration.xml
-vendor/etc/audio/sku_holisound_trigger_platform_info.xml:vendor/etc/audio/sku_holi/sound_trigger_platform_info.xml
-vendor/etc/audio_effects.conf
-vendor/etc/audio_effects.xml
-vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info.xml
-vendor/etc/audio_platform_info_intcodec.xml
-vendor/etc/audio_platform_info_qrd.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/audio_tuning_mixer.txt
-vendor/etc/default_volume_tables.xml
-vendor/etc/mixer_paths.xml
-vendor/etc/mixer_paths_qrd.xml
-vendor/etc/mixer_paths_qrdsku1.xml
-vendor/etc/mixer_paths_qrdsku1_AW88261.xml
-vendor/etc/mixer_paths_qrdsku1_FS1962.xml
-vendor/etc/mixer_paths_usbc.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
-vendor/etc/sound_trigger_mixer_paths.xml
-vendor/etc/sound_trigger_platform_info.xml
-vendor/etc/spk_cal_pinknoise.wav
-vendor/etc/spk_cal_silence.wav
-vendor/etc/usb_audio_policy_configuration.xml
-
 # Audio-Hardware
 vendor/lib/hw/audio.primary.holi.so
 vendor/lib/libaudio_log_utils.so
@@ -1013,7 +971,6 @@ vendor/etc/media_codecs_holi.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_blair.xml
 vendor/etc/media_codecs_performance_holi.xml
-vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_blair.xml
