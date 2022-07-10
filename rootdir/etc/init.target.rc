@@ -120,10 +120,6 @@ on boot
     chown system system /proc/tp_gesture
     chmod 0644 /proc/tp_gesture
 
-    # selinux nodes, hide permissive state
-    chmod 0640 /sys/fs/selinux/enforce
-    chmod 0440 /sys/fs/selinux/policy
-
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
     # We want all cores for camera
