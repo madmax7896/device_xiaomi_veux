@@ -1,1 +1,6 @@
 allow init adsprpcd_file:file mounton;
+
+allow init proc_last_kmsg:file {
+  r_file_perms
+  setattr
+};
